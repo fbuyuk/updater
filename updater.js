@@ -2,7 +2,7 @@ const AutoGitUpdate = require('auto-git-update');
 
 const config = {
     repository: 'https://github.com/fbuyuk/updater.git',
-    tempLocation: './backup',
+    tempLocation: 'X:/Workspace/bilmatik/revbil',
     ignoreFiles: [],
     executeOnComplete: 'node app.js',
     exitOnComplete: true
